@@ -26,7 +26,8 @@ staged - file is ready to be committed
 unmodified - unchanged
 
 add - adds new or changed files in your working dir to the git staging area 
-git add <- file name -> 
+git add <- file name ->
+git add . (to stage all the files) 
 
 commit - it is the record of change 
 git commit -m "some message"
