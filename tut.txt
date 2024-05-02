@@ -34,3 +34,55 @@ git commit -m "some message"
 
 push - upload local repo content to remote repo 
 git push origin main
+
+init - used to create a new git repo 
+git init 
+git remote add origin <-Link->
+git remote -v (to verify remote)
+git branch (to check branch)
+git branch -M main (to rename branch)
+git push origin main
+(git push -u origin main --> set upstream (in next time u can use only git push))
+
+WorkFlow 
+local git --> Github Repo -> Clone -> Changes -> add -> Commit -> push 
+
+git branches:-
+git branch (to check branch)
+git branch -M main (to rename branch)
+git checkout <- branch name -> (to navigate)
+git checkout -b <- new branch name -> (to create a new branch)
+git branch -d <- branch name -> ( to delete a branch)
+
+Merging Code:-
+Way1 
+git diff <- branch name -> (to compare commits, branches, files & more)
+git merge <-branch name -> (to merge two branches)
+
+Way2 
+Create a PR (Pull Req) -> lets you tell others about the changes you've pushed to a branch in a repo on github.
+
+git pull origin main --> used to fetch and download content from a remote repo and immediately update the local repo to match the content.
+
+Resolving Merge Conflicts:-
+An event that takes place when Git is unable to automatically resolve differences in code b/w two commits
+Current Change -> Change in your curr branch
+Incoming Change -> Change coming from that branch (main)
+
+Undoing Changes:-
+Case 1: staged Changes 
+    git reset <-file name->
+    git reset 
+
+Case 2: committed changes (for one commit)
+    git reset HEAD~1 --> it will come back one commit behind and undo the latest change
+
+Case 3: committed changes (for many commits)
+    git reset <- commit hash ->
+    git reset --hard <- commit hash -> (displays in vs code too)
+
+git log --> history of commits
+
+Fork:-
+A fork is a repo that shares code and visibility settings with the original "upstream" repo 
+For is a rough repo
