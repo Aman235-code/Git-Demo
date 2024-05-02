@@ -1,0 +1,32 @@
+Git
+A Version Control System is a tool that helps to track changes in the code
+Git is a VCS. It is
+popular, free & Open Src, fast and scalable
+
+track the history
+to collaborate
+
+Git Hub: Webosute that allows developers to store and maage their code using Git
+
+Configuring Git:-
+
+git config --global user.name "Aman Ahamed"
+
+git config --global user.email "amanahamed04gmail.com"
+
+git config --list
+
+Clone -  Clone a repo on local machine --> git clone <-link->
+
+status - displays the status of the code --> git status
+
+untracked - new files git doesn't track
+modified - changed
+staged - file is ready to be committed 
+unmodified - unchanged
+
+add - adds new or changed files in your working dir to the git staging area 
+git add <- file name -> 
+
+commit - it is the record of change 
+git commit -m "some message"
