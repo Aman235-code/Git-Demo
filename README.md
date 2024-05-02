@@ -1,2 +1,3 @@
 # Git-Demo
-This is a Demo for Learning Git
+This is a Demo for Learning Git.
+Author - Aman
